@@ -3,3 +3,10 @@ header{
     height: 48px;
     margin: 40px 0 0 40px;
 }
+div textarea{
+    position: relative;
+    width: 99%;
+    height: 50%;
+    
+    
+}
