@@ -65,6 +65,7 @@ main{
     height: 67px;
     width: 328px;
 
+
 }
 .btn-copiar{
     border: 1px solid #0A3871;
@@ -75,6 +76,8 @@ main{
     margin-top: 402px;
     position: absolute;
     width: 336px;
+    position: fixed;
+    
 }
 .informacion{
     color: #495057;
