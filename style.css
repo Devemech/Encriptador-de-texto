@@ -16,8 +16,9 @@ main{
     margin-left: 80px;
 }
 .text-area{
-    border: none;
-    margin-top: 90px;
+    /* border: none; */
+    position: relative;
+    margin-top: 30px;
     color: #0A3871;
     text-transform: lowercase; /*transformar texto a minuscula*/
 }
@@ -51,22 +52,31 @@ main{
     border: 1px solid #0A3871;
     border-radius: 24px;
     color: white;
-    cursor: pointer;
-    height: 67px;
+    height: 55px;
     width: 328px;
-
+    margin: 0 2.5% 0 0;
+    cursor: pointer;
 }
+.btn-encriptar:active{
+    transform: scale(0.97);
+    
+}
+
 .btn-desencriptar{
     background: #d8dfe8;
     border: 1px solid #0A3871;
     border-radius: 24px;
     color: #0A3871;
-    cursor: pointer;
-    height: 67px;
+    height: 55px;
     width: 328px;
-
-
+    cursor: pointer;
+    
 }
+
+.btn-desencriptar:active{
+    transform: scale(0.97);
+}
+
 .btn-copiar{
     border: 1px solid #0A3871;
     border-radius: 24px;
@@ -78,6 +88,9 @@ main{
     width: 336px;
     position: fixed;
     
+}
+.btn-copiar:active{
+    transform: scale(0.97);
 }
 .informacion{
     color: #495057;
