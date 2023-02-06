@@ -16,7 +16,7 @@ main{
     margin-left: 80px;
 }
 .text-area{
-    /* border: none; */
+    border: none; 
     position: relative;
     margin-top: 30px;
     color: #0A3871;
@@ -95,4 +95,35 @@ main{
 .informacion{
     color: #495057;
     font-size: 18px;
+}
+
+@media screen and (max-width: 640px) {
+    *{
+      
+        width: auto;
+    }
+
+    .mensaje{
+       position:absolute;
+        border-radius: 8%;
+        margin-left: 5%;
+        margin-top: 20%;
+        padding-left: 20%;
+        
+    }
+
+    text-area{
+        position: fixed;
+        margin-top: 10%;
+       
+    }
+    main{
+        display: block;
+        margin-bottom: 20%;
+        margin-left: 10%;
+    }
+    .informacion{
+        
+        font-size: 30%;
+    }
 }

@@ -9,6 +9,7 @@ function btnEncriptar(){
     mensaje.value = textoEncriptado
     textArea.value = "";  /* para limpiar el campo */
     mensaje.style.backgroundImage = "none"
+    
 }
 
 
@@ -26,6 +27,7 @@ function encriptar(stringEncriptada){
         }
     }
     return stringEncriptada
+
 }
 
 function btnDesencriptar(){
@@ -51,4 +53,11 @@ function desencriptar(stringDesencriptada){
     return stringDesencriptada
 }
 
+function copiar () {
+    let textoEncriptado = mensaje.value;
+    navigator.clipboard.writeText(textoEncriptado);
+    mensaje.value = ""; 
+    textArea.focus();
+    
+}
 
